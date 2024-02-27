@@ -46,7 +46,7 @@ def stream_data():
     curr_time = time.time()
 
     while True:
-        if time.time() > curr_time + 60
+        if time.time() > curr_time + 60: #1 minute
             break
         try:
             res = get_data()
